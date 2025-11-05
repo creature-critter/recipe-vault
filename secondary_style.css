@@ -3,50 +3,27 @@ body {
     display: flex;
     flex-direction: column; 
     justify-content: center;
-    align-items: center;
-    margin-bottom: 5rem; }
+    align-items: center; }
 
-/*"critter in the kitchen" + list styling*/
-.home_section {
+/*"breads" + list styling*/
+.breads_section {
     background-color: #FFF4CC;
     width: 20rem;
     border-radius: 1rem;
     border: 4px solid #F8E6A4;
-    margin-top: 5rem;
+    margin-top: 10%;
+    margin-bottom: 10%;
     padding: .5rem; }
 
-/*"critter+in the kitchen" styling*/
-.hero_container {
-    color: #5B4A0B; 
-    font-family: "Solway", serif; 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    align-self: stretch; 
-    margin-left: 50%;
-    margin-right: 50%;
-    margin-bottom: 1.5rem; }
-
-/*"critter" styling*/
+    /*"breads" text styling*/
 .head_wrapper {
-    text-align: center;
-    line-height: 0rem; }
+    color: #5B4A0B; 
+    font-family: "Solway", serif;
+    text-align: center; 
+    line-height: 0rem;}
 
-/*"in the kitchen" styling*/
-.subhead_wrapper {
-    display: flex;
-    align-items: baseline;
-    gap: 0.75rem;
-    line-height: 0rem; }
 h1 {
     font-size: 4rem; }
-h2 {
-    font-size: 1.75rem; }
-.alt_h2 {
-    font-family: "Courier Prime", serif;
-    font-style: italic;
-    font-weight: 400; }
 
 /*dotted divider*/
 hr.dotted {
@@ -87,11 +64,3 @@ a:hover {
     text-decoration: underline;
     background-color: #FFE380; }
 
-/*"made with love and bread" styling - outside section!*/
-.bottom_container {
-    margin-top: 2rem; 
-    text-align: center;}
-p {
-    color:#5B4A0B;
-    font-size: .85rem;
-    font-family: "Courier Prime", monospace; }
