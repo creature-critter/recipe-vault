@@ -3,7 +3,9 @@ body {
     display: flex;
     flex-direction: column; 
     justify-content: center;
-    align-items: center; }
+    align-items: center; 
+    gap: 5rem;
+}
 
 /*"breads" + list styling*/
 .breads_section {
@@ -11,24 +13,26 @@ body {
     width: 20rem;
     border-radius: 1rem;
     border: 4px solid #F8E6A4;
-    margin-top: 10%;
-    margin-bottom: 10%;
-    padding: .5rem; }
+    padding: .5rem; 
+}
 
-    /*"breads" text styling*/
+/*"breads" text styling*/
 .head_wrapper {
     color: #5B4A0B; 
     font-family: "Solway", serif;
     text-align: center; 
-    line-height: 0rem;}
+    line-height: 0rem;
+}
 
 h1 {
-    font-size: 4rem; }
+    font-size: 4rem; 
+}
 
 /*dotted divider*/
 hr.dotted {
     margin: 1.75rem;
-    border-bottom: .45rem dotted #F8E6A4; }
+    border-bottom: .45rem dotted #F8E6A4; 
+}
 
 /*list styling*/
 .list_container {
@@ -38,7 +42,8 @@ hr.dotted {
     gap: 1.5rem;
     align-self: stretch;
     margin-top: 1.5rem;
-    margin-bottom: 1.5rem; }
+    margin-bottom: 1.5rem; 
+}
 
 /*non-link item styling*/
 dt {
@@ -46,21 +51,104 @@ dt {
     font-size: 1.25rem;
     font-family: "Courier Prime", monospace;
     text-decoration: none;
-    color: #F8E6A4; }
+    color: #F8E6A4; 
+}
 
 /*link styling*/
 a {
     padding: .25rem;
     font-size: 1.25rem;
     font-family: "Courier Prime", monospace;
-    text-decoration: none; }
+    text-decoration: none; 
+}
 a:link {
-    color: #5B4A0B; }
+    color: #5B4A0B; 
+}
 a:visited {
-    color: #5B4A0B;}
+    color: #5B4A0B;
+}
 a:focus {
-    text-decoration: underline; }
+    text-decoration: underline; 
+}
 a:hover {
     text-decoration: underline;
-    background-color: #FFE380; }
+    background-color: #FFE380; 
+}
 
+.notes_section {
+    width: 20rem;
+    margin-bottom: 3rem; 
+}
+
+/*ingredient notes + desc. styling*/
+.header {
+    color: #5B4A0B; 
+    font-family: "Solway", serif;
+    text-align: center; 
+}
+
+/*ingredient notes styling*/
+.header_content {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    align-self: stretch;
+    gap: 0.75rem;
+    line-height: 0rem; 
+}
+
+h2 {
+    font-size: 1.75rem; 
+}
+.alt_h2 {
+    font-family: "Courier Prime", serif;
+    font-style: italic;
+    font-weight: 400; 
+}
+
+/*body/desc. text styling*/
+p {
+    color:#5B4A0B;
+    font-size: 1rem;
+    font-family: "Courier Prime", monospace; 
+}
+
+/*ingredients styling*/
+.ingredient_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: stretch; 
+}
+
+.ingredient_category {
+    display: flex;
+    align-items: baseline;
+    gap: .5rem;
+    margin-top: 2rem; 
+}
+
+.p_bold {
+    font-family: Solway;
+    font-weight: 700; 
+}
+.p_italic {
+    font-style: italic; 
+}
+
+/*individual items (img + desc.)*/
+.item_category {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: stretch;
+}
+
+/*items in a row*/
+.item_container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    align-self: stretch; 
+    gap: .5rem; 
+}
