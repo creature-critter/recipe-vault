@@ -9,7 +9,7 @@ h1 {
 h2 {
     color: #5B4A0B; 
     font-family: "Solway", serif;
-    font-size: 1.75rem; 
+    font-size: 1.45rem; 
     line-height: 0rem;
 }
 .alt_h2 {
@@ -20,7 +20,7 @@ h2 {
 }
 p {
     color:#5B4A0B;
-    font-size: 1rem;
+    font-size: .9rem;
     font-family: "Courier Prime", monospace; 
 }
 .p_bold {
@@ -129,8 +129,8 @@ body {
 .header_content {
     display: flex;
     justify-content: center;
-    align-items: baseline;
-    gap: 0.75rem;
+    align-items:center;
+    gap: 0.5rem;
     line-height: 0rem; 
 }
 
