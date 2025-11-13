@@ -70,18 +70,18 @@ a.nav {
 }
 
 /* dotted divider */
-hr.dotted {
+.dotted {
     margin: 1.75rem;
     border-bottom: .45rem dotted #F8E6A4; 
 }
 
 /* dotted divider */
-hr.dotted_2 {
+.dotted_2 {
     border-bottom: .45rem dotted #F8E6A4; 
 }
 
 /* dotted divider */
-hr.dotted_3 {
+.dotted_3 {
     width: 16rem;
     border-bottom: .25rem dotted #FFF4CC; 
 }
