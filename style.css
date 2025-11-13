@@ -1,10 +1,68 @@
-body {
+/* ::GENERAL STYLES:: */
+/* typography */
+h1 {
+    font-size: 4rem; 
+}
+h2 {
+    font-size: 1.75rem; 
+}
+.alt_h2 {
+    font-family: "Courier Prime", serif;
+    font-style: italic;
+    font-weight: 400; 
+}
+p {
+    color:#5B4A0B;
+    font-size: .85rem;
+    font-family: "Courier Prime", monospace; 
+}
+
+/*non-link item styling*/
+dt {
+    padding: .25rem;
+    font-size: 1.25rem;
+    font-family: "Courier Prime", monospace;
+    text-decoration: none;
+    color: #F8E6A4; 
+}
+
+/*link styling*/
+a {
+    padding: .25rem;
+    font-size: 1.25rem;
+    font-family: "Courier Prime", monospace;
+    text-decoration: none; 
+}
+a:link {
+    color: #5B4A0B; 
+}
+a:visited {
+    color: #5B4A0B;
+}
+a:focus {
+    text-decoration: underline; 
+}
+a:hover {
+    text-decoration: underline;
+    background-color: #FFE380; 
+}
+
+/*dotted divider*/
+.dotted {
+    margin: 1.75rem;
+    border-bottom: .45rem dotted #F8E6A4; 
+}
+
+/* ::PAGE STRUCTURE STYLE:: */
+/* general page structure */
+    body {
     background-color: #FFFAF2;
     display: flex;
     flex-direction: column; 
     justify-content: center;
     align-items: center;
-    margin-bottom: 5rem; }
+    margin-bottom: 5rem; 
+}
 
 /*"critter in the kitchen" + list styling*/
 .home_section {
@@ -13,7 +71,8 @@ body {
     border-radius: 1rem;
     border: 4px solid #F8E6A4;
     margin-top: 5rem;
-    padding: .5rem; }
+    padding: .5rem; 
+}
 
 /*"critter+in the kitchen" styling*/
 .hero_container {
@@ -26,32 +85,22 @@ body {
     align-self: stretch; 
     margin-left: 50%;
     margin-right: 50%;
-    margin-bottom: 1.5rem; }
+    margin-bottom: 1.5rem; 
+}
 
 /*"critter" styling*/
 .head_wrapper {
     text-align: center;
-    line-height: 0rem; }
+    line-height: 0rem; 
+}
 
 /*"in the kitchen" styling*/
 .subhead_wrapper {
     display: flex;
     align-items: baseline;
     gap: 0.75rem;
-    line-height: 0rem; }
-h1 {
-    font-size: 4rem; }
-h2 {
-    font-size: 1.75rem; }
-.alt_h2 {
-    font-family: "Courier Prime", serif;
-    font-style: italic;
-    font-weight: 400; }
-
-/*dotted divider*/
-hr.dotted {
-    margin: 1.75rem;
-    border-bottom: .45rem dotted #F8E6A4; }
+    line-height: 0rem; 
+}
 
 /*list styling*/
 .list_container {
@@ -61,37 +110,11 @@ hr.dotted {
     gap: 1.5rem;
     align-self: stretch;
     margin-top: 1.5rem;
-    margin-bottom: 1.5rem; }
-
-/*non-link item styling*/
-dt {
-    padding: .25rem;
-    font-size: 1.25rem;
-    font-family: "Courier Prime", monospace;
-    text-decoration: none;
-    color: #F8E6A4; }
-
-/*link styling*/
-a {
-    padding: .25rem;
-    font-size: 1.25rem;
-    font-family: "Courier Prime", monospace;
-    text-decoration: none; }
-a:link {
-    color: #5B4A0B; }
-a:visited {
-    color: #5B4A0B;}
-a:focus {
-    text-decoration: underline; }
-a:hover {
-    text-decoration: underline;
-    background-color: #FFE380; }
+    margin-bottom: 1.5rem; 
+}
 
 /*"made with love and bread" styling - outside section!*/
 .bottom_container {
     margin-top: 2rem; 
-    text-align: center;}
-p {
-    color:#5B4A0B;
-    font-size: .85rem;
-    font-family: "Courier Prime", monospace; }
+    text-align: center;
+}
