@@ -4,37 +4,48 @@ h1 {
     color: #5B4A0B; 
     font-family: "Solway", serif;
     font-size: 2.5rem; 
-    line-height: 0rem;
+    line-height: 0;
 }
 h2 {
     color: #5B4A0B; 
     font-family: "Solway", serif;
     font-size: 1.45rem; 
-    line-height: 0rem;
+    line-height: 0;
 }
-.alt_h2 {
-    font-family: "Courier Prime", serif;
+.h2_alt2 {
+    font-family: "Courier Prime", monospace;
+    font-weight: 100;
     font-style: italic;
-    font-weight: 400; 
-    line-height: 0rem;
+}
+h3 {
+    color: #5B4A0B; 
+    font-family: "Solway", serif;
+    font-size: 1.15rem; 
+    line-height: 0;
+}
+.h3_alt {
+    font-weight: 100;
+    font-family: "Courier Prime", monospace;
+    font-style: italic;
 }
 p {
     color:#5B4A0B;
     font-size: .9rem;
     font-family: "Courier Prime", monospace; 
 }
-.p_bold {
-    font-family: Solway;
-    font-weight: 700; 
+li {
+    color:#5B4A0B;
+    font-size: .9rem;
+    font-family: "Courier Prime", monospace; 
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
 }
-.p_italic {
-    font-style: italic; 
+.li_bold {
+    font-weight: 700;
 }
-
-/* list typo. */
-dt {
-    padding: .25rem;
-    font-size: 1.25rem;
+.li_light {
+    font-weight: 100;
+    font-style: italic;
 }
 
 /* links */
@@ -58,6 +69,15 @@ a:hover {
     background-color: #FFE380; 
 }
 
+.dotted {
+    width: 18rem;
+    border-bottom: .45rem dotted #F8E6A4; 
+}
+.dotted_2 {
+    width: 18rem;
+    border-bottom: .45rem dotted #FFF4CC; 
+}
+
 /* nav bar */
 a.nav {
     background-color: #5B4A0B;
@@ -70,23 +90,6 @@ a.nav {
     align-items: center;
 }
 
-/* dotted divider */
-.dotted {
-    margin: 1.75rem;
-    border-bottom: .45rem dotted #F8E6A4; 
-}
-
-/* dotted divider */
-.dotted_2 {
-    border-bottom: .45rem dotted #F8E6A4; 
-}
-
-/* dotted divider */
-.dotted_3 {
-    width: 16rem;
-    border-bottom: .25rem dotted #FFF4CC; 
-}
-
 /* ::PAGE STRUCTURE STYLE:: */
 /* general page structure */
 body {
@@ -97,74 +100,57 @@ body {
     align-items: center; 
     gap: 5rem;
 }
-
-/* breads + list structure */
-.breads_section {
-    background-color: #FFF4CC;
-    width: 20rem;
-    border-radius: 1rem;
-    border: 4px solid #F8E6A4;
-    text-align: center; 
-    padding: .5rem; 
-}
-
-/* list structure */
-.list_container {
+.item {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1.5rem;
+    gap: 1rem;
     align-self: stretch;
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem; 
 }
-
-/* notes general structure */
-.notes_section {
-    width: 20rem;
-    margin-bottom: 3rem; 
-    text-align: center; 
-}
-
-/* ingredient notes header & desc. structure */
-.header_content {
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    gap: 0.5rem;
-    line-height: 0rem; 
-}
-
-/* ingredients item + brand + img + desc. structure */
-.ingredient_content {
+.ingredients {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 2rem; 
+    gap: 1rem;
+    align-self: stretch;
 }
-
-/* ingredient item & brand */
-.ingredient_category {
+.tools {
+    border-radius: 0.875rem;
+    border: 4px solid #F8E6A4;
+    background: #FFF4CC;
     display: flex;
-    align-items: baseline;
-    gap: .5rem;
-    margin-top: 1rem;
+    padding: 1.5rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 22rem;
 }
-
-/* individual items (img + desc.) */
 .item_category {
     display: flex;
     flex-direction: column;
     align-items: center;
     align-self: stretch;
 }
-
-/* items in a row (multi. img + desc.) */
 .item_container {
     display: flex;
     justify-content: center;
     align-items: flex-start;
     align-self: stretch; 
-    gap: 1rem; 
-    margin-bottom: 1rem;
+    gap: 2.5rem; 
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+.all_steps {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 2rem;
+    width: 25rem;
+}
+.steps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25rem;
+    align-self: stretch;
 }
